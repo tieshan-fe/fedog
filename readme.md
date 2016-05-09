@@ -2,6 +2,11 @@
 
 ===
 ```
+npm install -g fedog 
+```
+
+===
+```
 主要命令：
 一、server
   fedog server start //开启server服务
