@@ -1,6 +1,6 @@
 {
-  "name": "sfec",
-  "version": "0.0.3",
+  "name": "fedog",
+  "version": "0.0.1",
   "description": "A small fe compile",
   "main": "index.js",
   "scripts": {
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tieshan-fe/small-fec.git"
+    "url": "https://github.com/tieshan-fe/fedog.git"
   },
   "keywords": [
-    "sfec"
+    "fedog"
   ],
   "author": "bravf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tieshan-fe/small-fec/issues"
+    "url": "https://github.com/tieshan-fe/fedog/issues"
   },
   "dependencies": {
     "clean-css": "^3.4.12",
     "uglify-js": "^2.6.2"
   },
   "bin": {
-    "sfec": "./bin/sfec"
+    "fedog": "./bin/fedog"
   }
 }
