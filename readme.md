@@ -7,6 +7,23 @@ npm install -g fedog
 
 ===
 ```
+支持功能：
+一、编译
+  jade
+  commonjs
+  compass   //需要提前安装http://compass-style.org/
+
+二、压缩
+  js
+  css
+
+三、静态资源加版本号
+
+四、自带server
+```
+
+===
+```
 主要命令：
 一、server
   fedog server start //开启server服务
