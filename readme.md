@@ -14,7 +14,7 @@ npm install -g fedog
   fedog server clean //清空server目录
 
 二、release
-  fedog release [type] //执行release, type为fedog.json中描述
+  fedog release [case] //执行release, case为fedog.json中描述
 ```
 
 ===
@@ -37,7 +37,7 @@ npm install -g fedog
                 "optimize": true, //是否压缩，默认false
                 "version": true,  //是否加版本号，默认false
                 "watch": false,   //是否watch，默认false
-                "www": '../www'   //处理过的资源目标地址，默认为/Users/${user}/.fedog-tmp/www
+                "www": "../www"   //处理过的资源目标地址，默认为/Users/${user}/.fedog-tmp/www
             }
         }
     }
