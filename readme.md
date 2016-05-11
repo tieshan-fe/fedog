@@ -2,7 +2,7 @@
 
 ===
 ```
-npm install -g fedog 
+npm install -g fedog
 ```
 
 ===
@@ -54,6 +54,7 @@ npm install -g fedog
                 "optimize": true, //是否压缩，默认false
                 "version": true,  //是否加版本号，默认false
                 "watch": false,   //是否watch，默认false
+                "domain": true    //是否启用域名，默认false
                 "www": "../www"   //处理过的资源目标地址，默认为/Users/${user}/.fedog-tmp/www
             }
         }
