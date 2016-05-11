@@ -22,6 +22,7 @@
     "clean-css": "^3.4.12",
     "commander": "^2.9.0",
     "jade": "^1.11.0",
+    "typescript": "^1.8.10",
     "uglify-js": "^2.6.2"
   },
   "bin": {
