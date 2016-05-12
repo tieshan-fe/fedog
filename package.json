@@ -1,6 +1,6 @@
 {
   "name": "fedog",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "A small fe compile",
   "main": "index.js",
   "scripts": {
