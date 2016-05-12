@@ -10,6 +10,7 @@ npm install -g fedog
 支持功能：
 一、编译
   jade
+  typescript
   commonjs
   compass   //需要提前安装http://compass-style.org/
 
