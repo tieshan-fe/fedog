@@ -1,6 +1,6 @@
 {
   "name": "fedog",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "A small fe compile",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "dependencies": {
     "clean-css": "^3.4.12",
     "commander": "^2.9.0",
-    "jade": "^1.11.0",
+    "pug": "^2.0.0-alpha7",
     "typescript": "^1.8.10",
     "uglify-js": "^2.6.2"
   },
