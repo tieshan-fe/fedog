@@ -7,6 +7,8 @@ npm install -g fedog
 
 ===
 ```
+依赖node版本： node 6.0.0以上
+
 支持功能：
 一、编译
   jade
