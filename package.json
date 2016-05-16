@@ -21,7 +21,7 @@
   "dependencies": {
     "clean-css": "^3.4.12",
     "commander": "^2.9.0",
-    "pug": "^2.0.0-alpha7",
+    "jade": "^1.11.0",
     "typescript": "^1.8.10",
     "uglify-js": "^2.6.2"
   },
