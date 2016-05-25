@@ -60,7 +60,18 @@ npm install -g fedog
                 "domain": true    //是否启用域名，默认false
                 "www": "../www"   //处理过的资源目标地址，默认为/Users/${user}/.fedog-tmp/www
             }
-        }
+        },
+        "copy": [
+            "**/*.min.js",
+            "static/script/copy/**/*"
+        ],
+        "ignore": [
+            "static/script/ignore/**/*",
+            "config.rb",
+            "fedog.json",
+            "tsconfig.json",
+            "run.py"
+        ]
     }
 }
 ```
