@@ -66,10 +66,12 @@ npm install -g fedog
                 "www": "../www"   //处理过的资源目标地址，默认为/Users/${user}/.fedog-tmp/www
             }
         },
+        // 设置文件原样复制，中间不做任何处理
         "copy": [
             "**/*.min.js",
             "static/script/copy/**/*"
         ],
+        // 设置文件忽略
         "ignore": [
             "static/script/ignore/**/*",
             "config.rb",
