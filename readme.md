@@ -51,7 +51,12 @@ npm install -g fedog
             "dev": {
                 "optimize": false,
                 "version": true,
-                "watch": true
+                "watch": true,
+                "env": {    //常量注入，let a = "@{FEDOG.aa}" => let a = "aaaa"
+                    "aa": "aaaa",
+                    "bb": "bbbb",
+                    "a": "cc"
+                }
             },
             "qa": {
                 "optimize": true, //是否压缩，默认false
