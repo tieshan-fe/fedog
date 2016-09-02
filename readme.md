@@ -11,7 +11,7 @@ npm install -g fedog
 
 支持功能：
 一、编译
-  jade
+  jade      //默认.jade文件会被编译为.html文件，如果为.tpl.jade，则会编译为.tpl文件。
   markdown
   typescript //需要全局安装npm install -g typescript
   commonjs
@@ -53,7 +53,11 @@ npm install -g fedog
                 "optimize": false,
                 "version": true,
                 "watch": true,
-                "env": {    //常量注入，let a = "@{FEDOG.aa}" => let a = "aaaa"
+
+                //常量注入
+                //js里使用：let a = "@{FEDOG.aa}" => let a = "aaaa"
+                //jade里使用： #{FEDOG.aa}
+                "env": {    
                     "aa": "aaaa",
                     "bb": "bbbb",
                     "a": "cc"
