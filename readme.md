@@ -2,6 +2,11 @@
 
 ===
 ```
+//依赖
+npm install -g typescript
+gem install compass
+
+//fedog
 npm install -g fedog
 ```
 
